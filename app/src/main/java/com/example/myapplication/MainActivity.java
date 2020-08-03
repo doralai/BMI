@@ -1,4 +1,3 @@
-//嗨~ 測試!!
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -36,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
                     float fh = Float.parseFloat(h.getEditableText().toString());      // 取得 身高輸入值
                     float fw = Float.parseFloat(w.getEditableText().toString());     // 取得 體重輸入值
                     float fresult;// BMI值 計算結果
-
+                    float ideal; //理想體重
+                    float normal; //正常體重
                     TextView result = (TextView)findViewById(R.id.tv3);// 取得 顯示結果 物件
                     TextView nor = (TextView)findViewById(R.id.textView4);
                     TextView nor1 = (TextView)findViewById(R.id.textView8);
