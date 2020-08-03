@@ -1,4 +1,6 @@
 //嗨 !! 我是doralai !!!
+//測試!!!
+
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,9 +17,11 @@ import android.widget.TextView;
 import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {
+
     EditText h;                //宣告全域變數
     EditText w;                //宣告全域變數
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
